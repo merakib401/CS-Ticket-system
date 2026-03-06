@@ -52,7 +52,7 @@ const Tickets = ({ promiseTickets }) => {
               </p>
               <div className="bg-white p-4 rounded-xl shadow-sm">
               <h3 className="font-semibold mb-3">Billing discrepancy</h3>
-              <button className="w-full bg-green-500 text-white py-2 rounded-lg">
+              <button className="w-full btn bg-green-500 text-white py-2 rounded-lg">
                 Complete
               </button>
             </div>
