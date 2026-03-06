@@ -18,7 +18,7 @@ function App() {
     <>
       <Navber></Navber>
       <Banner></Banner>
-     <Suspense fallback= {<span className="loading loading-spinner loading-lg"></span>}>
+     <Suspense fallback= {<span className="loading loading-spinner loading-lg justify-center text-center"></span>}>
        <Tickets promiseTickets = {promiseTickets} ></Tickets>
      </Suspense>
      <Footer></Footer>

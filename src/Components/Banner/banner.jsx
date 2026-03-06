@@ -2,6 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
+    <container>
     <div className="bg-[#F5F5F5] grid grid-cols-1 md:grid-cols-2">
       <div className="max-w-10/12 mx-auto  m-8">
         <div className="card  bg-[#9F62F2]  text-neutral-content w-96 h-40">
@@ -30,6 +31,7 @@ const Banner = () => {
         </div>
       </div>
     </div>
+    </container>
   );
 };
 
